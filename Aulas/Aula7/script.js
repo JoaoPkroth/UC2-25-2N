@@ -33,9 +33,19 @@ mensagens:
 */
 
 // Duas variáveis com números
-let numero1 = Number(prompt("Escreva o primeiro número"))
-let numero2 = Number(prompt("Escreva o segundo número"))
 
+// Pergunta os números para o usuário
+let numero1 = Number(prompt("Digite o primeiro número:"))
+let numero2 = Number(prompt("Digite o segundo número:"))
 
+// Perguntas e respostas
+let pergunta1 = "O primeiro número é igual ao segundo?"
+let pergunta2 = "O primeiro número é diferente do segundo?"
+let pergunta3 = "O primeiro número é maior que o segundo?"
+let pergunta4 = "O primeiro número é menor que o segundo?"
 
-
+// Mostrando as respostas
+console.log(pergunta1, numero1 === numero2)
+console.log(pergunta2, numero1 !== numero2)
+console.log(pergunta3, numero1 > numero2)
+console.log(pergunta4, numero1 < numero2)

@@ -35,4 +35,4 @@ let comabteRapido = sim
 
 //Crie as seguintes variáveis lógicas (devem armazenar o resultado da comparação):
 /*
-let podeVencer: A forcaTripulacao é maior ou igual (>=) à forcaInimigo?
+let podeVencer: A forcaTripulacao é maior ou igual (>=) à forcaInimigo?*/
