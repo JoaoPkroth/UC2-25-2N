@@ -73,24 +73,3 @@ console.log("Idade:", idade)
 console.log("É maior de idade?", maiorDeIdade)
 console.log("Idade em 2050:", idade2050)
 */
-
-//Exercícios de fixação 
-
-/*Exercícios de interpretação de código.
-1) Leia o código abaixo. Indique todas as mensagens impressas no console
-*/
-
-const bool1 = true
-const bool2 = false
-const bool3 = !bool2
-
-let resultado0 = bool1 && bool2
-console.log("a.", resultado0)
-
-resultado0 = bool1 && bool2 && bool3
-console.log("b.", resultado0)
-
-resultado0 = !resultado0 && (bool1 || bool2)
-console.log("c", resultado)
-
-console.log("d",typeof resultado0)

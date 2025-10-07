@@ -4,11 +4,11 @@
 //1) Leia o código abaixo. Indique todas as mensagens impressas no console
 
 
-const bool1 = true
-const bool2 = false
-const bool3 = !bool2
+const bool1 = true 
+const bool2 = false 
+const bool3 = !bool2 
 
-let resultado = bool1 && bool2
+let resultado = bool1 && bool2 
 console.log("a.", resultado) //false
 
 resultado = bool1 && bool2 && bool3
