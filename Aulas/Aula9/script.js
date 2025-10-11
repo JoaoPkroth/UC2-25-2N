@@ -39,3 +39,6 @@ console.log(fraseCenoura.includes("batata"))//Retorna false
 
 const novaFrase = fraseCenoura.replaceAll("cenoura", "batata")
 console.log(novaFrase)
+
+const listasDeCompras = ["Abacate","Banana", "Tomate"]
+console.log(listasDeCompras[1])
