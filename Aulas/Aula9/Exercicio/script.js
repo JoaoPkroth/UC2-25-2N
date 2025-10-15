@@ -83,8 +83,8 @@ console.log(`c. `, array.length)//Letra C: Imprime 11
 let i = 0
 console.log(`d. `, array[i])//Letra D: Imprime 3
 
-array[+i] = 19
-console.log(`e. `, array)//Letra E: Imprime [4, 19, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+array[i+1] = 19
+console.log(`e. `, array)//Letra E: Imprime [19, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 
 const valor = array[i+6]
 console.log(`f. `, valor)//Letra F: Imprime 9
@@ -97,7 +97,7 @@ const fraseO = prompt("Digite uma frase")
 console.log(fraseO.toLocaleUpperCase().replaceAll("A","I"),fraseO.length)//Imprime a frase do usuário toda em maiúscula, transforma todos os "A" em "I" e imprime a quantidade de caracteres que tem na frase.
 
 //Qual será o valor impresso no console se a entrada do usuário for: "Subi num ônibus em Marrocos"?
-//"Subi num ônibus em Mirrocos"
+//"SUBI NUM ÔNIBUS EM MIRROCOS"
 
 //3. Faça um programa que pergunte ao usuário seu nome e seu e-mail. Em seguida, Imprima no console a seguinte mensagem:
 

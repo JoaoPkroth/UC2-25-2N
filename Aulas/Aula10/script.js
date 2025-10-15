@@ -5,7 +5,7 @@ Número de acessórios. Número de cores. Fator Brilho (note de 1 a 10).
 3. Declare uma variável metaPontuacao com o valor 80.
 4. Utilize um operador (>=) para verificar apontuação. Se a pontuacaoTotal é maior ou igual à metalPontuacao.
 5. Resultado (console.log): Se for aprovado, exiba uma mensagem de sucesso. Se for reprovado, utilize o operador de subtração(-) para calcular quantos pontos faltaram e exiba essa informação.
-*/
+
 
 // 1. Pedir ao usuário os valores
 let acessorios = Number(prompt("Digite um número de acessórios:"))
@@ -33,7 +33,7 @@ if (pontuacaoTotal >= metaPontuacao) {
 4. Busca por Palavras-Chave: primeiro, use .toLowerCase() na descrição para garantir a busca não seja sensível a maiúsculas/minúsculas.
 5. Utilixe o protótipo .indexOf() para verificar se a string contém as palavras-chave, por exemplo, "brilho" e "listras". Lembre-se: indeOf retorna -1 se a palavra não for encontrada. Use o comparador !== -1 para checar se foi encontrada.
 6. Crie a variável booleana final (lookAprovado) combinando as verificações: Aprovacao= Tem Tamanho Adequado&&(Tem Brilho||Tem Listras).
-*/
+
 
 // 1. Pedir ao usuário para inserir duas strings
 let descricao = prompt("Digite uma frase descrevendo o look:")
@@ -63,3 +63,100 @@ console.log("Tem tamanho adequado:", temTamanhoAdequado)
 console.log("Contém 'brilho':", temBrilho)
 console.log("Contém 'listras':", temListras)
 console.log("Look aprovado:", lookAprovado)
+
+let condicao1 = true
+let condicao2 = false
+
+if(condicao1) {
+console.log("Entrei no if 1")
+}
+
+if(condicao2) {
+console.log("Entrei no if 2")
+}
+
+*/
+/*
+1. Crie um programa que:
+
+a) Recebe 2 números (chamaremos de num1 e num2)
+b) Compara esses números entre si:
+c) Imprime mensagens dizendo se os números são iguais ou diferentes.
+// a) Recebe 2 números
+let num1 = Number(prompt("Digite o primeiro número:"))
+let num2 = Number(prompt("Digite o segundo número:"))
+
+// b) Compara os números
+if (num1 === num2) {
+  // c) Mensagem se forem iguais
+  console.log("Os números são iguais.")
+} else {
+  // c) Mensagem se forem diferentes
+  console.log("Os números são diferentes.")
+}
+
+
+/*
+
+1. Crie um programa que:
+a) Recebe 2 números (chamaremos de num1 e num2)
+b) Compara esses números entre si:
+c) Imprime mensagens dizendo se o primeiro número é maior/menor/igual ao
+segundo número.
+
+
+
+// a) Recebe 2 números
+let num1 = Number(prompt("Digite o primeiro número:"))
+let num2 = Number(prompt("Digite o segundo número:"))
+
+// b) Compara os números e c) Imprime o resultado
+
+if(num1 > num2) {
+console.log("O primeiro número é maior que o segundo.")
+} else if(num1 < num2) {
+  console.log("O segundo número é maior que o segundo.")
+} else {
+  console.log("Os dois números são iguais.")
+}
+
+
+
+let paisOrigem = prompt("Digite o seu país de origem:")
+
+switch(paisOrigem){
+  case 'Brasil' :
+    console.log("Nacionalidade: Brasileira")
+    console.log("Entrou na case1")
+    break
+    case 'EUA' :
+      console.log("Nacionalidade: Norte Americano")
+      console.log("Entrou na case2")
+      break
+      case 'India' :
+        console.log("Nacionalidade: Indiano")
+        console.log("Entrou na case3")
+        break
+        default :
+        console.log("Nacionalidade não encontrada")
+        break
+    }
+
+    */
+
+    let pokemon = prompt("Escolha um Pokémon: Bulbasaur, Charmander, Squirtle.")
+
+  
+    switch(pokemon.toLowerCase()) {
+      case 'bulbasaur' : 
+      console.log("Planta e Veneno")
+      break
+      case 'charmander' :
+        console.log("Fogo")
+        break
+        case 'squirtle' :
+        console.log("Água")
+        break
+        default :
+        console.log("Pokémon não encontrado")
+    }
