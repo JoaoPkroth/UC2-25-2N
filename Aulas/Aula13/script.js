@@ -115,13 +115,13 @@ console.log("Palavras mais longas:", palavrasMaisLongas)
 let valor = 0
 for (let i = 0; i < 5; i++) {
   valor += i
-}
+} // //o valor total é 10
 console.log(valor)
 
 const lista = [10, 11, 12, 15, 18, 19, 21, 23, 25, 27, 30]
 for (let numero of lista) {
   if (numero > 18) {
-    console.log(numero)
+    console.log(numero) //Apenas os números maiores que 18
   }
 }
 
@@ -139,6 +139,7 @@ while (quantidadeAtual < quantidadeTotal) {
   console.log(linha)
   quantidadeAtual++
 }
+ //O resultado seria a quantidade de linhas cada uma com a respectiva quantidade de asteriscos, linha 1, um asterisco, linha 2, dois asteriscos. 
 
 // Pergunta quantos pets o usuário tem
 let quantidadePets = Number(prompt("Quantos bichinhos de estimação você tem?"))
