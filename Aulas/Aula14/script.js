@@ -61,11 +61,30 @@ function calcularArea (altura, largura) {
     const area = altura * largura
     return area
 }
+
+//Atribui retor à uma variável
 const areaCalculada = calcularArea(2, 3)
 
+//Imprime retorno no console
 console.log(calcularArea(2, 3))
-*/
-function numeros(number1, number2){
-    const soma2 = number1 + number2
-    return soma2
+*/ 
+
+//1
+function soma2(a, b) {
+    return a + b 
 }
+const resultado = soma2(5, 7) 
+console.log("Resultado da soma:", resultado)
+
+//2
+function novoArrayDivido(arr) {
+    const primeiro = arr[0] / 2
+   const ultimo = arr[arr.length - 1] / 2
+   return [ultimo, primeiro]
+}
+
+const numeros = [10, 20, 30, 40]
+const resultadoArray = 
+novoArrayDivido(numeros)
+
+console.log("Novo array:", resultadoArray)
