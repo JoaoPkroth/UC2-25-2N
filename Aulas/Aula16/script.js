@@ -46,10 +46,10 @@ uma mensagem falando algumas informações sobre você, como:
 "Eu sou Caio, tenho 23 anos, moro em São Paulo e sou estudante."
 
 Troque o nome, idade, cidade e se é estudante ou não por informações sobre você. Lembrando que a função não possui entradas, apenas imprime essa mensagem.
-*/
+
 
 function minhaMensagem() {
-    console.log("Eu sou João, tenho 17 anos, moro em Lomba Grande")
+    console.log("Eu sou João, tenho 17 anos, moro em Lomba Grande e sou estudante.")
 }
 minhaMensagem()
 
@@ -85,7 +85,7 @@ console.log(ehPar(8))
 //d)
 
 function mensagemDetalhada(texto) {
-    console.log(texto.length, texto. toUpperCase())
+    console.log(texto.length, texto.toUpperCase())
 }
 mensagemDetalhada("Olá Mundo")
 
