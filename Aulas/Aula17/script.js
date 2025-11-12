@@ -27,7 +27,7 @@ uma propriedade que diga se você já viu ou não.
 ● Acesse e imprima no console cada uma das propriedades:
 metade usando notação do ponto e a outra metade com
 notação de colchetes.
-*/
+
 
 const filme = {
     direcao : "Guilherme del Toro",
@@ -42,7 +42,7 @@ console.log("O diretor do filme é:", filme.nome)
 console.log("Ano lançado:", filme["ano"])
 console.log("O elenco é:", filme["elenco"])
 console.log("Já vi o filme?", filme["javiu"])
-
+*/
 const pessoa = {
     nome : "Gustavo",
     idade : 17,
@@ -55,3 +55,23 @@ const professores = [
     {nome: "Lucas", modulo : 2}
 ]
 */
+
+const filme = {
+    direcao : "Guilherme del Toro",
+    nome : "Frankenstein",
+    ano : 2025,
+    elenco : [
+    { ator : "Jacob Goth", personagem : "Monstro"},
+    { ator : "Mia Goth", personagem : "Noiva"},
+    { ator : "Oscar Isaac", personagem : "Dr. Frankenstein"}
+],
+    javiu : true
+}
+
+filme.elenco.forEach(item => {
+    console.log(`${item.ator} interpreta ${item.personagem}`)
+})
+
+filme.elenco[0].ator = "Xuxa"
+
+console.log(filme)
